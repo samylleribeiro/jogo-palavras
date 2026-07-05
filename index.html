@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo de Palavras</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <button id="btn-noturno" onclick="toggleDarkMode()">🌙</button>
+
+  <h1>Jogo de Palavras</h1>
+
+  <div class="emoji"  id="emoji"></div>
+  <br>
+  <div class="silabas-montadas" id="silabas-montadas"></div>
+  <br>
+  <div class="silabas" id="silabas"></div>
+
+  <p id="resultado"></p>
+
+  <button onclick="criarPalavra()">Criar Palavra 🎮</button>
+  <button onclick="novaPalavra()">Nova Palavra ➡️</button>
+
+  <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script> 
+
+  <script src="script.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,195 @@
+/* ===== ESTILO GERAL ===== */
+body {
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #e3f2fd; /* Aquele azul clarinho */
+    padding: 40px 20px;
+}
+body.com-transicao {
+    transition: background-color 0.5s ease;
+}
+/* ===== TÍTULO ===== */
+h1 {
+    color: #1565c0; 
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+/* ===== EMOJI ===== */
+.emoji {
+    font-size: 100px;
+    margin-bottom: 20px;
+}
+/* ===== SILABAS ===== */
+.silabas {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 30px; /* Adiciona espaço entre as sílabas e o resultado */
+    margin-top: 20px;
+}
+/* ===== BOTÕES DAS SILABAS ===== */
+.silabas button {
+    background-color: #64b5f6; /* Azul mais claro */
+    color: white;
+    border: none;
+    padding: 15px 25px;
+    font-size: 25px;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: background-color 0.3s ease, transform 0.2s ease, filter 0.2s ease;
+}
+/* ===== BOTÕES DAS SILABAS HOVER ===== */
+.silabas button:hover {
+    background-color: #42a5f5; /* Azul mais escuro */
+    transform: scale(1.1);
+    filter: brightness(1.2); 
+}
+/* ===== BOTÕES DAS SILABAS ATIVO ===== */
+.silabas button:active {
+    background-color: #42a5f5; /* Azul mais escuro */
+    transform: scale(0.95);
+    filter: brightness(0.8); 
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2); /* Dá uma leve sombra para parecer que o botão foi pressionado */
+}
+/* ===== SILABA FOR CLICADA E DESATIVADA ===== */
+.silabas button:disabled {
+    background-color: #b0bec5; /* cinza clarinho */
+    cursor: not-allowed;
+    opacity: 0.6; /* Deixa o botão mais transparente para indicar que está desativado */
+}
+/* ===== SILABAS MONTADAS ===== */
+.silabas-montadas {
+    display: inline-block;
+    font-size: 24px;
+    margin: 10px;
+    padding: 15px 25px;
+    background-color: #c8e6c9; /* Verde clarinho */
+    border-radius: 8px;
+}
+/* ===== SILABAS MONTADAS HOVER ===== */
+.silabas-montadas:hover {
+    background-color: #a5d6a7; /* Verde mais claro */
+    transform: scale(1.1);
+}
+/* ===== SILABAS MONTADAS ATIVO ===== */
+.silabas-montadas:active {
+    background-color: #a5d6a7; /* Verde mais claro */
+    transform: scale(0.95);
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2); /* Dá uma leve sombra para parecer que o botão foi pressionado */
+}
+/* ===== BOTÃO ===== */
+button {
+    background-color: #1565c0; 
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    font-size: 18px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    margin: 0 10px; /* Adiciona espaço entre os botões */
+}
+/* ===== BOTÃO HOVER ===== */
+button:hover {
+    background-color: #0d47a1;
+    transform: scale(1.05);
+    filter: brightness(1.1); 
+}
+/* ===== BOTÃO ATIVO ===== */
+button:active {
+    background-color: #0d47a1;
+    filter: brightness(0.9);
+    transform: scale(0.95);                  /* Dá uma leve encolhida ao ser clicado */
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);   /* Diminui a sombra para parecer que o botão foi pressionado */
+}
+/* ===== RESULTADO ===== */
+#resultado {
+    margin-top: 30px;
+    font-size: 24px;
+}
+/* ===== BOTÃO NOTURNO FLUTUANTE ===== */
+#btn-noturno {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    padding: 0;
+    font-size: 20px;
+    z-index: 1000;
+    /* Centraliza o emoji perfeitamente */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* ===== BOTÃO NOTURNO FLUTUANTE HOVER ===== */
+#btn-noturno:hover {
+    background-color: #0d47a1; /* Azul escuro */
+    transform: scale(1.1);
+    filter: brightness(1.2); 
+}
+/* ===== BOTÃO NOTURNO FLUTUANTE ATIVO ===== */
+#btn-noturno:active {
+    background-color: #0d47a1; /* Azul escuro */
+    transform: scale(0.95);
+    filter: brightness(0.8); 
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2); 
+}
+/* ===== MODO ESCURO ===== */
+body.dark-mode {
+    background-color: #121212; /* Fundo escuro */
+    color: #e0e0e0; /* Texto claro */
+}
+/* ===== MODO ESCURO PARA SILABAS ===== */
+body.dark-mode .silabas {
+    background-color: transparent; /* fundo tranparente */
+    color: #e0e0e0; /* Texto claro */
+}
+/* ===== MODO ESCURO PARA BOTÕES DAS SILABAS ===== */
+body.dark-mode .silabas button {
+    background-color: #37474f; /* Cinza escuro */
+    color: #e0e0e0; /* Texto claro */
+}
+/* ===== MODO ESCURO PARA BOTÕES DAS SILABAS HOVER ===== */
+body.dark-mode .silabas button:hover {
+    background-color: #455a64; /* Cinza mais claro */
+    filter: brightness(1.2);
+} 
+/* ===== MODO ESCURO PARA SILABAS DESABILITADAS ===== */
+body.dark-mode .silabas button:disabled {
+    background-color: #212121; /* Um cinza bem escurinho */
+    color: #757575; /* Letras cinza apagadas */
+    opacity: 0.5;
+    cursor: not-allowed;
+    transform: none; /* Garante que ele não cresça no hover se estiver desativado */
+    box-shadow: none;
+}
+/* ===== MODO ESCURO PARA SILABAS MONTADAS ===== */
+body.dark-mode .silabas-montadas {
+    background-color: #616161; /* Cinza médio */
+    color: #e0e0e0; /* Texto claro */
+}
+/* ===== MODO ESCURO PARA BOTÃO ===== */
+body.dark-mode button {
+    background-color: #0d47a1; /* Azul escuro */
+    color: #e0e0e0; /* Texto claro */
+}
+/* ===== MODO ESCURO PARA BOTÃO HOVER ===== */
+body.dark-mode button:hover {
+    background-color: #1565c0; /* Azul mais claro */
+    filter: brightness(1.2); 
+}
+/* ===== MODO ESCURO PARA O BOTÃO NOTURNO FLUTUANTE ===== */
+body.dark-mode #btn-noturno {
+    background-color: #424242; /* Cinza escuro */
+    color: #e0e0e0; /* Texto claro */
+}
+/* ===== MODO NOTURNO PARA O TITULO ===== */
+body.dark-mode h1 {
+    color: #90caf9; /* Azul claro */
+}
+/* ===== MODO NOTURNO PARA O RESULTADO ===== */
+body.dark-mode #resultado {
+    color: #90caf9; /* Azul claro */
+}
