@@ -23,12 +23,15 @@ h1 {
 .silabas {
     display: flex;
     justify-content: center;
+    flex-wrap: wrap; /* Permite que as sílabas quebrem para a próxima linha se não couberem em uma linha */
     gap: 15px;
     margin-bottom: 30px; /* Adiciona espaço entre as sílabas e o resultado */
     margin-top: 20px;
+    max-width: 100%; /* Garante que as sílabas não ultrapassem a largura da tela */
 }
 /* ===== BOTÕES DAS SILABAS ===== */
 .silabas button {
+    margin:0; /* Remove a margem padrão do botão */
     background-color: #64b5f6; /* Azul mais claro */
     color: white;
     border: none;
@@ -87,7 +90,7 @@ button {
     cursor: pointer;
     border-radius: 5px;
     transition: background-color 0.3s ease;
-    margin: 0 10px; /* Adiciona espaço entre os botões */
+    margin: 10px; /* Adiciona espaço entre os botões */
 }
 /* ===== BOTÃO HOVER ===== */
 button:hover {
