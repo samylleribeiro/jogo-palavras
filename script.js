@@ -2,11 +2,11 @@
 let palavrasDoJogo = [
     { palavra: "BOLO", emoji: "🎂", silabas: ["BO", "LO"], opcoes: ["GA", "LO", "CA", "MA", "PA","BO"] },
     { palavra: "BOLA", emoji: "⚽", silabas: ["BO", "LA"], opcoes: ["BA", "LA", "TA", "RE", "BO","MA"] },
-    { palavra: "GATO", emoji: "🐱", silabas: ["GA", "TO"], opcoes: ["GO", "TO", "GA", "LI", "PA","TO"] },
+    { palavra: "GATO", emoji: "🐱", silabas: ["GA", "TO"], opcoes: ["GO", "TO", "GA", "LI", "PA","RO"] },
     { palavra: "CASA", emoji: "🏠", silabas: ["CA", "SA"], opcoes: ["PA", "SA", "MA", "CA", "DA","FA"] },
     { palavra: "DADO", emoji: "🎲", silabas: ["DA", "DO"], opcoes: ["FA", "DO", "MA", "PA", "DA","FA"] },
     { palavra: "CARRO", emoji: "🚗", silabas: ["CA", "RRO"], opcoes: ["PA", "RRO", "MA", "CA", "FA","FA"] },
-    { palavra: "BANANA", emoji: "🍌", silabas: ["BA", "NA", "NA"], opcoes: ["BA", "MA", "NA", "CA", "FA","FA"] },
+    { palavra: "BANANA", emoji: "🍌", silabas: ["BA", "NA", "NA"], opcoes: ["BA", "MA", "NA", "CA", "NA","FA"] },
     { palavra: "ABACATE", emoji: "🥑", silabas: ["A", "BA", "CA", "TE"], opcoes: ["BA", "MA", "TE", "CA", "A","FA"] },
     { palavra: "LARANJA", emoji: "🍊", silabas: ["LA", "RAN", "JA"], opcoes: ["LA", "MA", "JA", "CA", "FA","RAN"] },
     { palavra: "MORANGO", emoji: "🍓", silabas: ["MO", "RAN", "GO"], opcoes: ["MO", "MA", "GO", "CA", "FA","RAN"] },
@@ -16,6 +16,19 @@ let palavrasDoJogo = [
    { palavra: "ELEFANTE", emoji: "🐘", silabas: ["E","LE","FAN","TE"], opcoes: ["LE", "PE", "FAN", "TE", "MA","E"] },
    { palavra: "ABACAXI", emoji: "🍍", silabas: ["A","BA","CA","XI"], opcoes: ["BA", "MA", "XI", "CA", "A","FA"] },
    { palavra: "MELANCIA", emoji: "🍉", silabas: ["ME","LAN","CIA"], opcoes: ["ME", "FA", "CIA", "MA", "FA","LAN"] },
+   { palavra: "GALO", emoji: "🐓", silabas: ["GA","LO"], opcoes: ["ME", "GA", "CIA", "MA", "FA","LO"] },
+   { palavra: "PÃO", emoji: "🍞", silabas: ["PÃO"], opcoes: ["PA", "PÃO", "MÃO", "NÃO", "DÃO", "BÃO"]},
+   { palavra: "COPO", emoji: "🥛", silabas:["CO","PO"], opcoes:["PO","DO","CO","MO","GO","TO"]},
+   { palavra: "FACA", emoji:"🔪", silabas:["FA","CA"], opcoes:["BA","CA","FA","GA","DA","SA"]},
+   { palavra: "FOCA", emoji:"🦭", silabas:["FO","CA"], opcoes:["BA","MA","FO","GA","CA","SA"]},
+   { palavra: "CAMA", emoji: "🛏️", silabas: ["CA","MA"], opcoes: ["ME", "GA", "CA", "DA", "MA","LO"] },
+   { palavra: "CELULAR", emoji: "📱", silabas: ["CE","LU","LAR"],opcoes:["LAR","CE","CA","LU","PA","DU"]},
+   { palavra:"SAPATO", emoji:"👟", silabas:["SA","PA","TO"],opcoes:["DO","SA","DI","TO","TU","PA"]},
+   {palavra:"CAMISA", emoji:"👕", silabas:["CA","MI","SA"],opcoes:["DO","CA","SA","TO","MI","PA"]},
+    {palavra:"COBRA", emoji:"🐍", silabas:["CO","BRA"],opcoes:["DO","CO","SA","BRA","MI","PA"]},
+    {palavra:"CABRA", emoji:"🐐", silabas:["CA","BRA"],opcoes:["DO","CA","SA","TO","MI","BRA"]},
+    {palavra:"OVELHA", emoji:"🐑", silabas:["O","VE","LHA"],opcoes:["O","CA","VE","TO","MI","LHA"]},
+    {palavra:"OVO", emoji:"🥚", silabas:["O","VO"],opcoes:["DO","CA","SA","VO","MI","O"]},
 ];
 // Variável para controlar o índice da palavra atual
 let indicePalavraAtual = 0;
