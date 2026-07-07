@@ -38,7 +38,7 @@ let palavrasDoJogo = [
     {palavra:"MENINO",emoji:"🧒",silabas:["ME","NI","NO"],opcoes:["TA","ME","BA","CE","NI","NO"]},
     {palavra:"OLHO",emoji:"👀",silabas:["O","LHO"],opcoes:["TA","PÉ","O","CE","LHO","VÓ"]},
     {palavra:"CAVALO",emoji:"🐎",silabas:["CA","VA","LO"],opcoes:["VA","JU","CA","ME","LO","TO"]},
-    {palavra:"PÉ",emoji:"🕷️",silabas:["PÉ"],opcoes:["TA","PÉ","BA","CE","SIL","VÓ"]},
+    {palavra:"ARANHA",emoji:"🕷️",silabas:["A","RA","NHA"],opcoes:["TA","RA","BA","CE","NHA","A"]},
     {palavra:"VACA",emoji:"🐄",silabas:["VA","CA"],opcoes:["TA","VA","BA","CE","CA","VU"]},
     {palavra:"SAPO",emoji:"🐸",silabas:["SA","PO"],opcoes:["TA","SA","BA","CE","SIL","PO"]},
     {palavra:"JUMENTO",emoji:"🫏",silabas:["JU","MEN","TO"],opcoes:["TA","JU","BA","CE","MEN","TO"]},
@@ -50,6 +50,12 @@ let palavrasDoJogo = [
     {palavra:"PINTO",emoji:"🐥",silabas:["PIN","TO"],opcoes:["DE","GO","PIN","RA","TO","CA"]}, 
     {palavra:"MÃO",emoji:"🖐🏻",silabas:["MÃO"],opcoes:["DE","GO","PI","MÃO","MU","CA"]},
     {palavra:"SORVETE",emoji:"🍦",silabas:["SOR","VE","TE"],opcoes:["RE","VE","PI","SOR","TE","CA"]},
+    {palavra:"VELA",emoji:"🕯️",silabas:["VE","LA"],opcoes:["RE","VE","PO","LA","TE","CA"]},
+    {palavra:"MALA",emoji:"🧳",silabas:["MA","LA"],opcoes:["RE","VE","PI","MA","TE","CA"]},
+    {palavra:"MACACO",emoji:"🐒",silabas:["MA","CA","CO"],opcoes:["RE","CO","PI","MA","TE","CA"]},
+    {palavra:"BORBOLETA",emoji:"🦋",silabas:["BOR","BO","LE","TA"],opcoes:["BO","VE","BOR","MA","LE","TA"]},
+    {palavra:"MANGA",emoji:"🥭",silabas:["MAN","GA"],opcoes:["RE","GA","PI","MAN","TE","CA"]},
+    {palavra:"LIVRO",emoji:"📖",silabas:["LI","VRO"],opcoes:["RE","VE","LI","MA","VRO","CA"]},
 ];
 // Variável para controlar o índice da palavra atual
 let indicePalavraAtual = 0;
