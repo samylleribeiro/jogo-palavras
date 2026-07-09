@@ -1,5 +1,19 @@
 // AS palavras do jogo são definidas em um array de objetos, cada objeto contém a palavra, o emoji correspondente, as sílabas e as opções de sílabas para formar a palavra.
 let palavrasDoJogo = [
+    { palavra: "BRASIL", emoji: "🇧🇷", silabas: ["BRA", "SIL"], opcoes: ["SIL", "VA", "BRA", "MA", "TA", "CA"] },
+    { palavra: "PASTEL", emoji: "🥟", silabas: ["PAS", "TEL"], opcoes: ["RE", "PAS", "PI", "TEL", "TE", "CA"] }, // Usei o emoji de dumpling que parece um pastelzinho frito!
+    { palavra: "PIPOCA", emoji: "🍿", silabas: ["PI", "PO", "CA"], opcoes: ["PO", "PI", "LI", "MA", "CA", "FA"] },
+    { palavra: "SUCO", emoji: "🧃", silabas: ["SU", "CO"], opcoes: ["MA", "VE", "SU", "CO", "TE", "CA"] },
+    { palavra: "LEITE", emoji: "🥛", silabas: ["LEI", "TE"], opcoes: ["LEI", "MA", "TE", "CA", "FA", "TA"] },
+    { palavra: "BONECA", emoji: "🪆", silabas: ["BO", "NE", "CA"], opcoes: ["BO", "VE", "NI", "NE", "CA", "MA"] },
+    { palavra: "TREM", emoji: "🚂", silabas: ["TREM"], opcoes: ["TEM", "REM", "TREM", "BEM", "SEM", "NÃO"] },
+    { palavra: "NAVIO", emoji: "🚢", silabas: ["NA", "VI", "O"], opcoes: ["MA", "NA", "VI", "CA", "O", "FA"] },
+    { palavra: "BOMBOM",emoji:"🍬",silabas:["BOM","BOM"],opcoes:["DU","BOM","FI","BOM","LA","MU"]},
+    { palavra: "PIZZA",emoji:"🍕",silabas:["PI","ZZA"],opcoes:["BU","PI","LI","DE","ZZA","JU"]},
+    { palavra: "PANELA", emoji: "🍲", silabas: ["PA", "NE", "LA"], opcoes: ["MA", "PA", "NE", "CA", "LA", "FA"] }, // Usei a frigideira com ovo que representa bem a cozinha!
+    { palavra: "ESCOVA", emoji: "🪥", silabas: ["ES", "CO", "VA"], opcoes: ["AS", "ES", "CO", "MA", "VA", "TA"] }, // Escova de dentes!
+    { palavra: "ESPELHO", emoji: "🪞", silabas: ["ES", "PE", "LHO"], opcoes: ["ES", "ME", "PE", "TA", "LHO", "VA"] },
+    { palavra: "ÔNIBUS", emoji: "🚌", silabas: ["Ô", "NI", "BUS"], opcoes: ["Ô", "MA", "NI", "CA", "BUS", "TA"] },
     { palavra: "BOLO", emoji: "🎂", silabas: ["BO", "LO"], opcoes: ["GA", "LO", "CA", "MA", "PA","BO"] },
     { palavra: "BOLA", emoji: "⚽", silabas: ["BO", "LA"], opcoes: ["BA", "LA", "TA", "RE", "BO","MA"] },
     { palavra: "GATO", emoji: "🐱", silabas: ["GA", "TO"], opcoes: ["GO", "TO", "GA", "LI", "PA","RO"] },
